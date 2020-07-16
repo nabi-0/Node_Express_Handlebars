@@ -1,12 +1,3 @@
-/*
-To run this file, we do the following in our Terminal:
-
-1. Go to the directory of this sql file.
-
-2. Get into our mysql console.
-
-3. Run "source schema.sql"
-*/
 -- Drops the burgers_db if it already exists --
 DROP DATABASE IF EXISTS burgers_db;
 
@@ -20,6 +11,6 @@ USE burgers_db;
 CREATE TABLE burgers (
   id INT NOT NULL AUTO_INCREMENT,
   burger_name VARCHAR(255) NOT NULL,
-  devoured BOOLEAN,
+  devoured BOOLEAN NOT NULL DEFAULT false,
   PRIMARY KEY (id)
 );
