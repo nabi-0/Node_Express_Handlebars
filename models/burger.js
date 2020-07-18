@@ -2,8 +2,8 @@
 var orm = require("../config/orm.js");
 
 var burger = {
-  selectAll: function(cb) {
-    orm.SelectAll("burgers", function(res) {
+  all: function(cb) {
+    orm.all("burgers", function(res) {
       cb(res);
     });
   },
@@ -25,5 +25,5 @@ var burger = {
   }
 };
 
-// Export the database functions for the controller (catsController.js).
+// Export the database functions for the controller (burgersController.js).
 module.exports = burger;
