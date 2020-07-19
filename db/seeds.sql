@@ -4,6 +4,9 @@ INSERT INTO burgers (burger_name)
 VALUE ("DoubleCheese Burger");
 
 INSERT INTO burgers (burger_name)
+VALUE ("DoubleCheese Burger");
+
+INSERT INTO burgers (burger_name)
 VALUE ("Tuna Burger");
 
 INSERT INTO burgers (burger_name)
