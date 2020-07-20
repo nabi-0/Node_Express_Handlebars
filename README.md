@@ -17,6 +17,7 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 ## Developers
 
 * Natalia Arias: https://github.com/nabi-0
+To see more stuffs like this check out my Portfolio. There is a link in my GitHub profile or here you go, https://nabi-0.github.io/Portfolio/, the Portfolio.
 
 
 ## Technologies
@@ -66,5 +67,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-*  
