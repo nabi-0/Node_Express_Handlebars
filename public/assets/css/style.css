@@ -1,3 +1,16 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+body {
+  /* background-image: url("C:\Users\abram\OneDrive\Documents\UTSA-BCC\UTSA-Homework\Node_Express_Handlebars\public\images\burger_baby.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffb867;
+  text-align: center;
+}
 li {
     padding: 5px;
     margin: 5px;
@@ -17,4 +30,6 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
-  
+  input {
+    text-align: center;
+  }
