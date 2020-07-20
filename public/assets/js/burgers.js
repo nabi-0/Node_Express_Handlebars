@@ -26,16 +26,18 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        burger_name: $("#bu").val().trim(),
+        burger_name: $("#bu").val().trim()
         //devoured: $("[name=newBurger]:checked").val().trim()
       };
 
       //need to return/display/store burger....
-      $("#bu").val("");
+      $('#bu').val("");
 
-      //if statement to call ajax post method...
-      if (!newBurger.burger_name.lenth)
+      //if statement then call ajax post method...
+      if (!newBurger.burger_name.length)
         return;
+
+        console.log("Do I work?")
   
       // Send the POST request.
       $.ajax("/api/burgers", {
