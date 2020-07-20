@@ -1,5 +1,6 @@
 # Node_Express_Handlebars
 
+
 ## Description
 
 In this assignment, I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
@@ -17,27 +18,37 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 
 * Natalia Arias: https://github.com/nabi-0
 
+
 ## Technologies
 
 * 
- 
+
+
 ## Installation
 
-* 
+This application requires the following dependencies. (The user will "npm install")
+
+* "body-parser": "^"
+* "express": "^"
+* "express-handlebars": "^"
+* "mysql": "^" 
+
 
 ## Usage
 
-*   
+To use the Burger App, the user must click on the "Burger Name Here" text form and then click "Add Burrrgg", this will allow the user to add a new burger. The "Devoured" botton next to the "Burgers not eaten!" will allow the user to move the burger to the "Burgers that are eaten!" list. The "EWWW! DELETE!" button will allow the user to completely remove the burger from the "not eaten" or "eaten" burger list.
+
 
 ## Credits
 
 * 
 
+
 ## License
 
 * Copyright (c) [2020] [Natalia Arias]
 
-* Permission is hereby granted, free of charge, to any person obtaining a copy
+Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -54,3 +65,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+*  
